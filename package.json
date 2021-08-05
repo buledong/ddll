@@ -4,7 +4,10 @@
   "description": "工具包",
   "main": "main.js",
   "scripts": {
-    "s": "electron ."
+    "s": "npm run start",
+    "start": "electron .",
+    "p":"npm run publish",
+    "publish":"electron-packager ./ dtils --platform=win32 --out=./publish"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/buledong/dtils#readme",
   "devDependencies": {
-    "electron": "^13.1.8"
+    "electron": "^13.1.8",
+    "electron-packager": "^15.3.0"
   }
 }
