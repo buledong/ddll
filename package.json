@@ -1,27 +1,33 @@
 {
   "name": "dtils",
-  "version": "1.0.0",
+  "private ": true,
   "description": "工具包",
-  "main": "main.js",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "electron": "^13.1.8",
+    "electron-packager": "^15.3.0"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
   "scripts": {
-    "s": "npm run start",
-    "start": "electron .",
-    "p":"npm run publish",
-    "publish":"electron-packager ./ dtils --platform=win32 --out=./publish"
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/buledong/dtils.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ddll",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/buledong/dtils/issues"
   },
-  "homepage": "https://github.com/buledong/dtils#readme",
-  "devDependencies": {
-    "electron": "^13.1.8",
-    "electron-packager": "^15.3.0"
-  }
+  "homepage": "https://github.com/buledong/dtils#readme"
 }
