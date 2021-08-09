@@ -1,14 +1,15 @@
-16 error Error: Command failed with exit code 1: git remote update
-16 error Connection reset by 13.250.177.223 port 22
-16 error fatal: Could not read from remote repository.
-16 error
-16 error Please make sure you have the correct access rights
-16 error and the repository exists.
-16 error error: Could not fetch origin
-16 error Fetching origin
-16 error     at makeError (C:\Users\buledong\Desktop\dtils\node_modules\execa\lib\error.js:60:11)
-16 error     at Function.module.exports.sync (C:\Users\buledong\Desktop\dtils\node_modules\execa\index.js:194:17)
-16 error     at Object.execSync (C:\Users\buledong\Desktop\dtils\node_modules\@lerna\child-process\index.js:39:16)
-16 error     at updateRemote (C:\Users\buledong\Desktop\dtils\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
-16 error     at isBehindUpstream (C:\Users\buledong\Desktop\dtils\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
-16 error     at VersionCommand.initialize (C:\Users\buledong\Desktop\dtils\node_modules\@lerna\version\index.js:153:9)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\buledong\Desktop\dtils
+3 error Error: Invalid package name "@dtils//utils": name can only contain URL-friendly characters
+3 error     at invalidPackageName (C:\Users\buledong\Desktop\dtils\node_modules\npm-package-arg\npa.js:84:15)
+3 error     at Result.setName (C:\Users\buledong\Desktop\dtils\node_modules\npm-package-arg\npa.js:119:11)
+3 error     at new Result (C:\Users\buledong\Desktop\dtils\node_modules\npm-package-arg\npa.js:110:10)
+3 error     at Function.resolve (C:\Users\buledong\Desktop\dtils\node_modules\npm-package-arg\npa.js:54:15)
+3 error     at new Package (C:\Users\buledong\Desktop\dtils\node_modules\@lerna\package\index.js:95:26)
+3 error     at C:\Users\buledong\Desktop\dtils\node_modules\@lerna\project\index.js:207:26
