@@ -8,7 +8,7 @@
 
 ```txt
 [remote "origin"]
-	url = git@github.com:buledong/dtils.git
 	url = git@gitee.com:buledong/dtils.git
+	url = git@github.com:buledong/dtils.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 ```
