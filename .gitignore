@@ -1,2 +1,4 @@
 node_modules
 publish
+lerna-debug.log
+.DS_Store
