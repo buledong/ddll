@@ -12,3 +12,7 @@
 	url = git@github.com:buledong/dtils.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 ```
+
+# 仓库功能点
+
+1. 同一套代码, vscode, chrome 插件, h5, electron
