@@ -1,5 +1,5 @@
 {
-  "name": "@dtils/h5",
+  "name": "@ddll/h5",
   "version": "0.0.9",
   "description": "> TODO: description",
   "author": "杨冬林 <ydl1483519810@163.com>",
@@ -17,6 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/buledong/dtils.git"
   },
+  
   "scripts": {
     "publish-npm": "npm publish --access public"
   },
