@@ -1,5 +1,5 @@
 {
-  "name": "chrome",
+  "name": "@dtils/chrome",
   "version": "0.0.4",
   "description": "> TODO: description",
   "author": "杨冬林 <ydl1483519810@163.com>",
@@ -19,5 +19,6 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "ea13b290a7d8ff1b371617e6b42430163c4c6319"
 }

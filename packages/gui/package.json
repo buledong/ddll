@@ -23,5 +23,6 @@
   "devDependencies": {
     "electron": "^13.1.8",
     "electron-packager": "^15.3.0"
-  }
+  },
+  "gitHead": "ea13b290a7d8ff1b371617e6b42430163c4c6319"
 }
