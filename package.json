@@ -17,7 +17,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "publish": "lerna publish --access public"
+    "publish": "lerna publish --skip-npm && lerna run publish-np"
   },
   "repository": {
     "type": "git",

@@ -18,7 +18,7 @@
     "url": "git@gitee.com:buledong/dtils.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "publish-npm": "npm publish --access public"
   },
   "gitHead": "d48047e00a95059143319f5e8db76f1458900f5f"
 }

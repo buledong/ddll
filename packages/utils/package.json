@@ -18,7 +18,7 @@
     "url": "git+https://github.com/buledong/dtils.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "publish-npm": "npm publish --access public"
   },
   "bugs": {
     "url": "https://github.com/buledong/dtils/issues"
