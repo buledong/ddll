@@ -17,7 +17,8 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "publish": "lerna publish --skip-npm && lerna run publish-npm"
+    "publish": "lerna publish --skip-npm && lerna run publish-npm",
+    "dev-h5": "lerna run dev --scope @ddll/h5"
   },
   "repository": {
     "type": "git",
