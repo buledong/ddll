@@ -29,6 +29,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@ddll/utils": "^0.0.12",
     "vue": "^3.0.5"
   },
   "devDependencies": {

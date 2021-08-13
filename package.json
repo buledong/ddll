@@ -18,7 +18,7 @@
   },
   "scripts": {
     "publish": "lerna publish --skip-npm && lerna run publish-npm",
-    "dev-h5": "lerna run dev --scope @ddll/h5"
+    "dev-h5": "cd ./packages/h5 && npm run dev"
   },
   "repository": {
     "type": "git",
