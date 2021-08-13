@@ -6,8 +6,7 @@
   "scripts": {
     "s": "npm run start",
     "start": "electron .",
-    "p": "npm run publish",
-    "publish": "electron-packager ./ dtils --platform=win32 --out=./publish",
+    "publish": "electron-packager ./ ddll --platform=win32 --out=./publish",
     "publish-npm": "npm publish --access public"
   },
   "repository": {

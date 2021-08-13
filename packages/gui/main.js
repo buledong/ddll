@@ -4,8 +4,7 @@ function createWindow() {
     width: 800,
     height: 600,
   });
-
-  win.loadFile("./src/index.html");
+  win.loadURL("http://127.0.0.1:3000/");
 }
 app.whenReady().then(() => {
   createWindow();
