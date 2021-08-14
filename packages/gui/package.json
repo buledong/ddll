@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buledong/dtils.git"
+    "url": "git+https://github.com/buledong/ddll.git"
   },
   "keywords": [],
   "author": "ddll",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buledong/dtils/issues"
+    "url": "https://github.com/buledong/ddll/issues"
   },
-  "homepage": "https://github.com/buledong/dtils#readme",
+  "homepage": "https://github.com/buledong/ddll#readme",
   "devDependencies": {
     "electron": "^13.1.8",
     "electron-packager": "^15.3.0"
