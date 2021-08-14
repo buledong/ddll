@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "typeRoots": ["./type"],
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",

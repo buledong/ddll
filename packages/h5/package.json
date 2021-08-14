@@ -5,7 +5,7 @@
   "author": "杨冬林 <ydl1483519810@163.com>",
   "homepage": "https://github.com/buledong/ddll/tree/main/packages/html#readme",
   "license": "ISC",
-  "main": "lib/html.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -23,10 +23,12 @@
   },
   "gitHead": "d48047e00a95059143319f5e8db76f1458900f5f",
   "scripts": {
+    "main": "npm run tsc-main && node ./main",
     "publish-npm": "npm run build && npm publish --access public",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "tsc-main": "tsc ./main.ts"
   },
   "dependencies": {
     "@ddll/utils": "0.0.13",
