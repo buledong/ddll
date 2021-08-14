@@ -1,26 +1,25 @@
 {
   "name": "@ddll/gui",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "工具包",
   "main": "main.js",
   "scripts": {
     "s": "npm run start",
     "start": "electron .",
-    "p": "npm run publish",
-    "publish": "electron-packager ./ dtils --platform=win32 --out=./publish",
+    "publish": "electron-packager ./ ddll --platform=win32 --out=./publish",
     "publish-npm": "npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buledong/dtils.git"
+    "url": "git+https://github.com/buledong/ddll.git"
   },
   "keywords": [],
   "author": "ddll",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buledong/dtils/issues"
+    "url": "https://github.com/buledong/ddll/issues"
   },
-  "homepage": "https://github.com/buledong/dtils#readme",
+  "homepage": "https://github.com/buledong/ddll#readme",
   "devDependencies": {
     "electron": "^13.1.8",
     "electron-packager": "^15.3.0"

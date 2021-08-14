@@ -1,4 +1,4 @@
-# dtils
+# ddll
 
 工具包
 
@@ -8,8 +8,8 @@
 
 ```txt
 [remote "origin"]
-	url = git@gitee.com:buledong/dtils.git
-	url = git@github.com:buledong/dtils.git
+	url = git@gitee.com:buledong/ddll.git
+	url = git@github.com:buledong/ddll.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 

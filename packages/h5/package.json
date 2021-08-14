@@ -1,9 +1,9 @@
 {
   "name": "@ddll/h5",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "杨冬林 <ydl1483519810@163.com>",
-  "homepage": "https://github.com/buledong/dtils/tree/main/packages/html#readme",
+  "homepage": "https://github.com/buledong/ddll/tree/main/packages/html#readme",
   "license": "ISC",
   "main": "lib/html.js",
   "directories": {
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buledong/dtils.git"
+    "url": "git+https://github.com/buledong/ddll.git"
   },
   "bugs": {
-    "url": "https://github.com/buledong/dtils/issues"
+    "url": "https://github.com/buledong/ddll/issues"
   },
   "gitHead": "d48047e00a95059143319f5e8db76f1458900f5f",
   "scripts": {

@@ -1,9 +1,9 @@
 {
   "name": "@ddll/chrome",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "杨冬林 <ydl1483519810@163.com>",
-  "homepage": "https://github.com/buledong/dtils/tree/main/packages/chrome#readme",
+  "homepage": "https://github.com/buledong/ddll/tree/main/packages/chrome#readme",
   "license": "ISC",
   "main": "lib/chrome.js",
   "directories": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:buledong/dtils.git"
+    "url": "git@gitee.com:buledong/ddll.git"
   },
   "scripts": {
     "publish-npm": "npm publish --access public"

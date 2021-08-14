@@ -1,5 +1,5 @@
 {
-  "name": "dtils",
+  "name": "ddll",
   "private ": true,
   "description": "工具包",
   "main": "index.js",
@@ -18,17 +18,18 @@
   },
   "scripts": {
     "publish": "lerna publish --skip-npm && lerna run publish-npm",
-    "dev-h5": "lerna run dev --scope @ddll/h5"
+    "dev-h5": "cd ./packages/h5 && npm run dev",
+    "dev-gui": "cd ./packages/gui && npm run s"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buledong/dtils.git"
+    "url": "git+https://github.com/buledong/ddll.git"
   },
   "keywords": [],
   "author": "ddll",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buledong/dtils/issues"
+    "url": "https://github.com/buledong/ddll/issues"
   },
-  "homepage": "https://github.com/buledong/dtils#readme"
+  "homepage": "https://github.com/buledong/ddll#readme"
 }
