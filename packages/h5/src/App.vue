@@ -1,16 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="哈哈" />
+  <HelloWorld :msg="msg" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
-
+import { browserName, browserVersion } from "./utils";
 export default defineComponent({
   name: "App",
   components: {
     HelloWorld,
+  },
+  setup() {
+    return {
+      msg: browserName + "-" + browserVersion,
+    };
   },
 });
 </script>

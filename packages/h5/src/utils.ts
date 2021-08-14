@@ -1,6 +1,12 @@
 import parser from "ua-parser-js";
-const plat = (() => {
+const uaParse = (() => {
+  // try {
   const ua = navigator.userAgent;
   return parser(ua);
+  // } catch {
+  //   return {};
+  // }
 })();
-export { plat };
+const browserName = uaParse?.browser?.name;
+const browserVersion = uaParse?.browser?.version;
+export { uaParse, browserName, browserVersion };
