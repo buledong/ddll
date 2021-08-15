@@ -7,7 +7,7 @@ function createWindow() {
     height: 600,
   });
 
-  // win.loadFile("./src/index.html");
+  win.loadFile("./src/index.html");
   h5.run().then((viteConfig) => {
     const vConfig: vite.ViteDevServer = viteConfig as any;
     win.loadURL("http://localhost:" + vConfig.config.server.port);
