@@ -1,6 +1,6 @@
 {
   "name": "@ddll/h5",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "> TODO: description",
   "author": "杨冬林 <ydl1483519810@163.com>",
   "homepage": "https://github.com/buledong/ddll/tree/main/packages/html#readme",
@@ -31,7 +31,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@ddll/utils": "0.0.13",
+    "@ddll/utils": "^0.0.14",
     "express": "^4.17.1",
     "ua-parser-js": "^0.7.28",
     "vue": "^3.0.5"
