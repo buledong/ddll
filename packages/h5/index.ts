@@ -1,6 +1,7 @@
 import * as vite from "vite";
 const run = () => {
   return new Promise((res) => {
+    debugger
     vite.createServer().then((app) => {
       // console.log(app.config);
       app.listen(3000).then((runConfig) => {

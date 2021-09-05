@@ -23,6 +23,7 @@
   },
   "gitHead": "d48047e00a95059143319f5e8db76f1458900f5f",
   "scripts": {
+    "run": "tsc && node ./lib/index.js",
     "publish-npm": "npm run build && npm publish --access public",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "@ddll/utils": "0.0.13",
+    "express": "^4.17.1",
     "ua-parser-js": "^0.7.28",
     "vue": "^3.0.5"
   },
